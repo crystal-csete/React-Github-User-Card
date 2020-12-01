@@ -37,7 +37,7 @@ class UserApi extends React.Component {
 
     render() {
         return (
-            <form onSubmit={this.userLookup}>
+            <form className="form" onSubmit={this.userLookup}>
                 <label>
                     <input 
                     value={this.state.username}
@@ -46,7 +46,7 @@ class UserApi extends React.Component {
                     placeholder="search here..."
                     />
                 </label>
-                <button type="submit">submit</button>
+                <button className="submit-btn" type="submit">submit</button>
 
                 <div>
                     {this.state.profile ? (

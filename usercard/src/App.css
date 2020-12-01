@@ -4,3 +4,46 @@
   box-sizing: border-box;
 }
 
+.user-profile {
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+}
+
+.user-profile-image {
+  display: flex;
+  justify-content: center;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  border-radius: 10px;
+  background: black;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: black;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+

@@ -10,8 +10,8 @@ class App extends React.Component {
  
   render() {
     return (
-      <div>
-        <h1>Look for People on Github!</h1>
+      <div className="app">
+        <h1 className="title">Look for People on Github!</h1>
         <UserApi />
       </div>
     )

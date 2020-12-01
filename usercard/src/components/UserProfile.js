@@ -7,15 +7,16 @@ class UserProfile extends React.Component {
         let {name, avatar_url, bio, html_url, email, followers, following, blog} = this.props.profile;
         return (
             <div>
-                <img src={avatar_url} alt="" />
+                <img className="user-profile-image" src={avatar_url} alt="" />
                 <div>
-                    <h3>{name}</h3>
-                    <p>User Bio: {bio}</p>
-                    <p>User Email: {email}</p>
-                    <p>Followers: {followers}</p>
-                    <p>Following: {following}</p>
-                    <p>User Blogs: {blog}</p>
+                    <p className="user-profile">Name: {name}</p>
+                    <p className="user-profile">User Bio: {bio}</p>
+                    <p className="user-profile">User Email: {email}</p>
+                    <p className="user-profile">Followers: {followers}</p>
+                    <p className="user-profile">Following: {following}</p>
+                    <p className="user-profile">User Blogs: {blog}</p>
                     <a 
+                    className="user-profile"
                     href={html_url} 
                     alt="" 
                     target="_blank" 
