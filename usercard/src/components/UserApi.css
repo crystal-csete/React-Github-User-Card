@@ -1,0 +1,31 @@
+.submit-btn {
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: rgb(62, 82, 62);
+  color: #fff;
+}
+
+input {
+  border-radius: 10px;
+  text-align: center;
+  background: rgb(62, 82, 62);
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  color: rgb(223, 204, 204);
+}
+
+label {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.form {
+  background: rgba(74, 105, 74, 0.6);
+  border-radius: 10px;
+  height: 100%;
+  padding: 1rem;
+  margin: 2rem;
+}

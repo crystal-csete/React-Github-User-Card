@@ -4,46 +4,21 @@
   box-sizing: border-box;
 }
 
-.user-profile {
-  font-size: 2rem;
-  font-weight: 800;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: blueviolet;
+body {
+  background: rgb(148, 190, 147);
 }
 
-.user-profile-image {
-  display: flex;
-  justify-content: center;
-  border: 10px solid black;
+.app {
+  background: rgb(148, 190, 147);
+  border: 6px solid black;
   border-radius: 10px;
+  height: 100%;
 }
-
-.submit-btn {
-  border-radius: 10px;
-  background: black;
-  color: whitesmoke;
-  text-transform: uppercase;
-  font-size: 2rem;
-}
-
-.form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  color: black;
-  border-radius: 10px;
-  font-size: 2rem;
-  margin: 1rem;
-  text-align: center;
-}
-
 
 .title {
   text-align: center;
-  font-size: 2rem;
+  padding: 2rem;
   text-decoration: underline;
+  font-size: 3rem;
+  color: black;
 }
-

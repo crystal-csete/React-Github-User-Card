@@ -1,0 +1,14 @@
+
+
+
+.footer {
+    background: black;
+    border-radius: 10px;
+}
+
+h3 {
+    color: rgb(223, 204, 204);
+    height: 15vh;
+    text-align: center;
+    padding: 2rem;
+}

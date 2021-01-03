@@ -1,0 +1,31 @@
+.user-profile {
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(14, 13, 15);
+  background: #94be93;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.user-profile-image {
+  border: 10px solid black;
+  border-radius: 10px;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+p {
+  background: #94be93;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.user-profile {
+  text-decoration: none;
+  color: rgb(223, 204, 204);
+  font-size: 2rem;
+}

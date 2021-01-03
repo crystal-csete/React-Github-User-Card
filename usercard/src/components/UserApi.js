@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import UserRepos from './UserRepos';
 import UserProfile from './UserProfile';
+import './UserApi.css';
 
 class UserApi extends React.Component {
     state = {
@@ -38,15 +39,15 @@ class UserApi extends React.Component {
     render() {
         return (
             <form className="form" onSubmit={this.userLookup}>
-                <label>
+                <label>Type name below: </label><br/>
                     <input 
                     value={this.state.username}
                     onChange={this.updateInput}
                     type="text"
-                    placeholder="search here..."
+                    placeholder="github username"
                     />
-                </label>
-                <button className="submit-btn" type="submit">submit</button>
+                
+                <button className="submit-btn" type="submit">Search...</button>
 
                 <div>
                     {this.state.profile ? (
